@@ -39,12 +39,15 @@
     font-family: "Lilita One", sans-serif;
 }
 
-
-
-.pre-footer {
-    min-height: 450px;
+.body-dog {
+    text-align: center;
+    
 }
 
+#dog {
+    width: 150%;
+    margin: 0 -60%;
+}
 
 .wrap-footer {
     background-color: #388659;
