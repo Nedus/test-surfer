@@ -1,0 +1,63 @@
+ .wrap-top {
+    background-color: #F2621D;
+    border-radius: 25px;
+    margin: auto;
+    width: 80%;
+    min-width: 370px;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .motto {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+ }
+
+ .wrap-logo {
+    text-align: center;
+ }
+
+ #logo {
+    width: 350px;
+    margin: 0 auto;   
+}
+
+.menu {
+    background-color: #F1C40F;
+    border-radius: 25px;
+    margin: auto;
+    width: 80%;
+    min-width: 370px;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu p {
+    display: inline;
+    margin: 0 25px;
+    font-family: "Lilita One", sans-serif;
+}
+
+
+
+.pre-footer {
+    min-height: 450px;
+}
+
+
+.wrap-footer {
+    background-color: #388659;
+    border-radius: 25px;
+    margin: auto;
+    width: 80%;
+    min-width: 370px;
+    padding: 5px;
+    text-align: center;
+}
+
+.wrap-footer p {
+    display: inline;
+    margin: 0 25px;
+    font-family: "Lilita One", sans-serif;
+}
