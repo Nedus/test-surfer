@@ -9,9 +9,10 @@
  }
 
  .motto {
-    font-family: "Lilita One", sans-serif;
-    font-weight: 200;
-    font-size: 25px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
  }
 
  .wrap-logo {
@@ -24,7 +25,7 @@
 }
 
 .menu {
-    background-color: #F1C40F;
+    /*background-color: #388659;*/
     border-radius: 25px;
     margin: auto;
     width: 80%;
@@ -35,24 +36,110 @@
 
 .menu p {
     display: inline;
-    margin: 0 25px;
-    font-family: "Lilita One", sans-serif;
+    margin: 0 10px;
+    text-align: ;
+    font-family: "Roboto";
+    font-weight: 900;
+    /*color: #F1C40F;*/
+    color: #253D5B;
 }
 
-.body-dog {
+.menu {
+    text-align: left;
+}
+
+
+
+/*A:LINK SETTINGS*******************/
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    /*color: #F1C40F;*/
+    color: #F2621D;
+}
+
+
+
+/*BODY STARTS*******************/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrap-dog {
     text-align: center;
-    
+    opacity: 80%;    
+    margin: 10% auto;
+    margin-bottom: 0;
+    height: 195%;
 }
 
 #dog {
-    width: 150%;
-    margin: 0 -60%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 110%;
+    z-index: -1;
+    /*width: 150%;*/
+   /* margin: 0 -60%;*/
 }
+
+
+/* BUTTONS */
+
+button:hover {
+    background-color: bisque;
+    color:#253D5B;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.one {
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+.two {
+    margin-top: 15%;
+    margin-left: -28%;
+}
+
+.three {
+    margin-top: 18%;
+    margin-left: 35%;
+}
+
+.button-first, .button-second, .button-third {
+    background-color: #388659;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: context-menu;
+    border-radius: 100px;
+    z-index: 1;
+}
+
 
 .wrap-footer {
     background-color: #388659;
     border-radius: 25px;
-    margin: auto;
+    margin: 5% auto;
     width: 80%;
     min-width: 370px;
     padding: 5px;
@@ -60,7 +147,7 @@
 }
 
 .wrap-footer p {
-    display: inline;
+    position: inherit;
     margin: 0 25px;
-    font-family: "Lilita One", sans-serif;
+    font-family: "roboto";
 }
