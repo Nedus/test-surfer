@@ -1,37 +1,51 @@
- .wrap-top {
+header {
+    max-width: 61rem;
+    margin: 0 auto;
+}
+
+.wrap-top {
+    display: flex;
+    align-items:center;
     background-color: #F2621D;
     border-radius: 25px;
-    margin: auto;
-    width: 80%;
-    min-width: 370px;
-    padding: 20px;
-    text-align: center;
- }
-
- .motto {
+    min-width: 3rem;
+    max-width: 35rem;
+    padding: 0.5rem;
     margin: 0 auto;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 20px;
  }
 
  .wrap-logo {
+    text-align: left;
+ }
+
+ 
+ .motto {
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1rem;
     text-align: center;
  }
 
  #logo {
-    width: 350px;
-    margin: 0 auto;   
+    height: 3rem;
+    width: auto; 
+}
+
+
+.wrap-menu {
+    background-color: white;
+    position: sticky;
+    top: 20px;
 }
 
 .menu {
     /*background-color: #388659;*/
-    border-radius: 25px;
-    margin: auto;
-    width: 80%;
-    min-width: 370px;
-    padding: 5px;
-    text-align: center;
+    
+    min-width: 3rem;
+    max-width: 35rem;
+    padding: 0.5rem;
+    margin: 0 auto;
 }
 
 .menu p {
