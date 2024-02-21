@@ -1,10 +1,12 @@
 header {
     margin: 0.1rem auto;
     background-color: #F2621D;
-    border-radius: 20px;
+    border-radius: 15px;
     min-width: 15.8rem;
     max-width: 40rem;
-    padding: 0.5rem;
+    padding: 0.2rem;
+    padding-right: 0.7rem;
+    padding-left: 1rem;
 }
 
 .wrap-logo {
