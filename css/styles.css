@@ -1,38 +1,34 @@
 header {
-    font-family: "Roboto";
     margin: 0.1rem auto;
     background-color: #F2621D;
-    border-radius: 25px;
+    border-radius: 20px;
     min-width: 15.8rem;
     max-width: 40rem;
     padding: 0.5rem;
 }
 
-/* PLACE MOTTO RIGHT!*/
 .wrap-logo {
     display: flex;
     align-items: center;
     width: 100%;
-    min-width: 422px;
+    min-width: 380px;
     justify-content: space-between;
 }
 
  .logo {
-    height: 3rem;
+    height: 2.5rem;
     text-align: left;
-   
-}
-
-.logo {
-    vertical-align: middle;
+    vertical-align: middle;  
 }
 
 .motto {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
     text-align: right;
 }
  
-
-
 .sticky-menu {
     background-color: white;
     position: sticky;
@@ -51,9 +47,9 @@ header {
 .menu p {
     display: inline;
     margin: 0 10px;
-    font-family: "Roboto";
+    font-family: "Bangers";
     font-weight: 900;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     /*color: #F1C40F;*/
     color: #000000;
 
