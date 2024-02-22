@@ -1,4 +1,5 @@
 header {
+    overflow: hidden;
     margin: 0.1rem auto;
     background-color: #F2621D;
     border-radius: 15px;
@@ -81,24 +82,29 @@ body, html {
 
 .wrap-dog {
     text-align: center;
-    opacity: 80%;    
+    min-width: 15.8rem;
+    max-width: 40rem;
+    border: 1px solid black;
     margin: 10% auto;
     margin-bottom: 0;
     height: 195%;
 }
 
 #dog {
+    position: relative;
+    opacity: 65%; 
+    max-width: 100%;
+    left: 0;  
+    z-index: -1; 
+}
+
+.button {
     position: absolute;
-    top: 25%;
-    left: 0;
-    width: 110%;
-    z-index: -1;
-    /*width: 150%;*/
-   /* margin: 0 -60%;*/
+    z-index: 1;
 }
 
 
-/* BUTTONS *******************/
+/* BUTTONS ************/
 
 button:hover {
     background-color: bisque;
@@ -106,34 +112,31 @@ button:hover {
 }
 
 .one {
-    margin-top: 25%;
-    margin-left: 35%;
+    margin-top: -205%;
+    margin-left: 55%;
 }
 
 .two {
-    margin-top: 15%;
-    margin-left: -28%;
+    margin-top: -170%;
+    margin-left: 15%;
 }
 
 .three {
-    margin-top: 18%;
-    margin-left: 35%;
+    margin-top: -133%;
+    margin-left: 55%;
 }
 
 .button-first, .button-second, .button-third {
     background-color: #388659;
-    border: none;
+    border: 0.5rem solid  white;
     color: white;
     width: 150px;
     height: 150px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 4px;
-    cursor: context-menu;
-    border-radius: 100px;
-    z-index: 1;
+    border-radius: 50%;
 }
 
 /* FOOTER ********************/
@@ -141,7 +144,7 @@ button:hover {
 .wrap-footer {
     background-color: #388659;
     border-radius: 25px;
-    margin: 5% auto;
+    margin: -10% auto;
     width: 80%;
     min-width: 370px;
     padding: 5px;
