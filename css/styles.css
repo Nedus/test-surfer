@@ -66,8 +66,13 @@ a:link {
 
 a:hover {
     text-decoration: none;
-    /*color: #F1C40F;*/
     color: #F2621D;
+    font-size: 0.95rem;
+}
+
+.menubtn:active {
+    color: #F2621D;
+    font-size: 1rem;
 }
 
 
@@ -86,7 +91,6 @@ body, html {
     max-width: 40rem;
     border: 1px solid black;
     margin: 10% auto;
-    margin-bottom: 0;
     height: 195%;
 }
 
@@ -99,7 +103,7 @@ body, html {
 }
 
 .button {
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 
@@ -111,19 +115,23 @@ button:hover {
     color:#253D5B;
 }
 
+button:active {
+    box-shadow: 1px 3px 15px black;
+  }
+
 .one {
-    margin-top: -205%;
-    margin-left: 55%;
+    margin-top: -210%;
+    margin-left: 20%;
 }
 
 .two {
-    margin-top: -170%;
-    margin-left: 15%;
+    margin-top: 12%;
+    margin-left: -30%;
 }
 
 .three {
-    margin-top: -133%;
-    margin-left: 55%;
+    margin-top: 13%;
+    margin-left: 20%;
 }
 
 .button-first, .button-second, .button-third {
@@ -144,7 +152,7 @@ button:hover {
 .wrap-footer {
     background-color: #388659;
     border-radius: 25px;
-    margin: -10% auto;
+    margin: 0% auto;
     width: 80%;
     min-width: 370px;
     padding: 5px;
