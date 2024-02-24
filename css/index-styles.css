@@ -31,7 +31,7 @@ header {
 }
 
  .logo {
-    height: 2.5rem;
+    height: 2rem;
     text-align: left;
     vertical-align: middle;  
 }
@@ -104,14 +104,15 @@ a:link {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 10vh auto;
     padding: 20px 15px;
   }
 
 .item {
     width: 250px;
+    min-width: 250px;
     height: 250PX;
     padding: 1.5em;
     text-align: center
@@ -131,24 +132,23 @@ a:link {
 }
 
 .three {
-
     background-color: #0f1879;
     color: antiquewhite;
-}
-
-.three img {
-    height: inherit;
+    
 }
 
 .three p {
     position: relative;
-    top: -16em;
     font-style: oblique;
+    margin: 60px 30px;
+
 }
 
 .four {
+    border-radius: 50%;
     background-color: #F2621D;
 }
+
 
 
 
