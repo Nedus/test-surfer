@@ -160,8 +160,8 @@ a:link {
     background-color: #388659;
     border-radius: 25px;
     margin: 0% auto;
-    width: 80%;
-    min-width: 370px;
+    min-width: 15.8rem;
+    max-width: 40rem;
     padding: 5px;
     text-align: center;
 }
